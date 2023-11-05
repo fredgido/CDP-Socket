@@ -1,7 +1,7 @@
 import setuptools
 
 
-requirements = ['aiohttp~=3.8.5', 'websockets~=11.0.3']
+requirements = ['aiohttp>=3.8.5', 'websockets~=11.0.3']
 
 with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
